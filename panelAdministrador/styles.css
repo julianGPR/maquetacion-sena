@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: black;
+}
+
+.layout {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #7850dc;
+}
+.nav--admin {
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    background-color: beige;
+}
+.nav--admin-h2 {
+    width: 290px;
+    height: auto;
+    margin-left: 16px;
+    font-size: 12px;
+}
+.nav--admin__button {
+    width: 120px;
+    height: 28px;
+    border-radius: 8px;
+    border: none;
+    background-color: #7850dc;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+}
+.nav--admin__div {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    gap: 2px;
+}
+.nav--admin__div__img {
+    width: 24px;
+    height: auto;
+    cursor: pointer;
+}
+.nav--admin__div__p--notificacion {
+    font-weight: 700;
+}
+
+.article--admin {
+    width: 100vw;
+    height: 100px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article--admin__div {
+    width: 300px;
+    height: 80px;
+    margin-left: 16px;
+    background-color: beige;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.article--admin__div--img__c--img {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    margin-left: 16px;
+    border-radius: 50%;
+    border: 2px solid #7850dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article--admin__div--img__c--img__img {
+    width: 90%;
+}
+.article--admin__div--h2 {
+    width: auto;
+    height: auto;
+    margin-right: 16px;
+}
+.article--admin__div--h2__h2 {
+    font-size: 30px;
+}
+
+
+.article--opciones {
+    width: 90vw;
+    height: 200px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 0 16px;
+}
+.article--opciones__button {
+    width: 20%;
+    height: 160px;
+    background-color: beige;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 16px;
+}
+
+.layout__p--reservados {
+    margin-top: 80px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 16px;
+    color: #282626;
+}
